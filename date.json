@@ -1,0 +1,29 @@
+[
+  {
+    "title": "このサイトについて",
+    "content": "こんにちは、Grenjaです。　今回このサイトに関して説明します。\n\n元々記事投稿サイトをして作成を計画されたサイトです。　このサイトはgithubにて手動でjsonに記事を入力する形で投稿します。投稿したい場合はレポジトリの変更権限を得てjsonに書き込みをするか、私が渡すので記事テンプレートから記事を作成していただきそれを私が反映する形となります。\n\n皆さんお知らせやプログラムアップデートの報告、記録などに使用してください。",
+    "summary": "Gr3njaNewsについて",
+    "thumbnail": "https://i0.wp.com/girlydrop.com/wp-content/uploads/2024/te/S__190922848.jpg?fit=500%2C281&ssl=1",
+    "author": "Grenja公式",
+    "tags": ["サイト", "説明"],
+    "date": "2025-08-26"
+  },
+    {
+    "title": "ver.1.06アップデート",
+    "content": "Gr3njaNews Ver.1.06アップデートについて。\n\nアップデート内容\n\n記事内のスクロール改善　記事内の表示を画面全体での表示に変更　検索機能にてタイトル検索を追加　\n\nこれからも皆さんが使いやすいよう改善していきたいと思います。",
+    "summary": "アップデート情報",
+    "thumbnail": "https://thumb.ac-illust.com/f2/f24909b68eb761032c0b37ec68e09663_t.jpeg",
+    "author": "Grenja公式",
+    "tags": ["アップデート", "Gr3njaNews"],
+    "date": "2025-08-26"
+  },
+      {
+    "title": "テスト",
+    "content": "サイト更新用のテストです。",
+    "summary": "サイト更新用のテストです。",
+    "thumbnail": "",
+    "author": "Grenja公式",
+    "tags": ["アップデート", "Gr3njaNews"],
+    "date": "2025-08-28"
+  }
+]

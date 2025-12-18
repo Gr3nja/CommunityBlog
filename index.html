@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gr3njaNews</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="google-site-verification" content="CJiicNCGiTJzpbrxZayKAP7j4w8jSGbrlQt8gbvxPYI" />
+</head>
+<body>
+  <header>
+    <h1 id="site-name">Gr3njaNews / 深テ（公式）</h1>
+    <div id="search-container">
+      <input type="text" id="search" placeholder="タグで検索 (Enterで絞り込み)">
+      <select id="tag-select">
+        <option value="">選択無し</option>
+        <option value="イベント">イベント</option>
+        <option value="アップデート">アップデート</option>
+        <option value="お知らせ">お知らせ</option>
+        <option value="募集">募集</option>
+        <option value="その他">その他</option>
+
+      </select>
+    </div>
+  </header>
+
+  <div id="status-message"></div>
+  
+  <div id="articles">
+    <div id="loading">記事を読み込み中...</div>
+  </div>
+
+  <!-- 詳細表示モーダル -->
+  <div id="detail-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close-modal">×</span>
+        <h2 id="detail-title"></h2>
+      </div>
+      <div class="modal-body">
+        <img id="detail-thumbnail" src="" alt="サムネイル">
+        <div id="detail-content-text"></div>
+        <div class="detail-meta">
+          <p>作者: <span id="detail-author"></span></p>
+          <p>投稿日: <span id="detail-date"></span></p>
+          <p>タグ: <span id="detail-tags"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
